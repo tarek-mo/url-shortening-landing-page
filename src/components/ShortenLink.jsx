@@ -12,7 +12,7 @@ const ShortenLink = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
 
-    if (link == "") {
+    if (link === "") {
       setError("Provide a link please");
       return;
     }

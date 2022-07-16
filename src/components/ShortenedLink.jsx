@@ -21,12 +21,12 @@ const ShortenedLink = ({
       <Button
         onClick={handleClick}
         className={
-          lastCopiedID == id
+          lastCopiedID === id
             ? "!bg-violet !rounded-md lg:w-32"
             : "!rounded-md lg:w-32"
         }
       >
-        {lastCopiedID == id ? "Copied!" : "Copy"}
+        {lastCopiedID === id ? "Copied!" : "Copy"}
       </Button>
     </div>
   );

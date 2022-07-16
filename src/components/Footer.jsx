@@ -83,20 +83,20 @@ const Footer = () => {
             </ul>
           </div>
           <div className="flex flex-wrap justify-center lg:justify-start gap-6">
-            <a href="https://facebook.com" target="_blank">
+            <a href="https://facebook.com" target="_blank" rel="noreferrer">
               <img
                 src={facebookIcon}
                 alt="Facebook Icon"
                 className="fill-blue-500"
               />
             </a>
-            <a href="https://twitter.com" target="_blank">
+            <a href="https://twitter.com" target="_blank" rel="noreferrer">
               <img src={twitterIcon} alt="Twitter Icon" />
             </a>
-            <a href="https://pinterest.com" target="_blank">
+            <a href="https://pinterest.com" target="_blank" rel="noreferrer">
               <img src={pinterestIcon} alt="Pinterest Icon" />
             </a>
-            <a href="https://facebook.com" target="_blank">
+            <a href="https://facebook.com" target="_blank" rel="noreferrer">
               <img src={instagramIcon} alt="Instagram Icon" />
             </a>
           </div>
